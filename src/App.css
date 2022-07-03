@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 10px 25px 10px 25px;
+  height: 90px;
+}
+nav > h1,
+nav > h2 {
+  margin: 0;
+}
+nav > h1 {
+  margin-right: auto;
+  color: #282c34;
+}
+nav > img {
+  height: 30px;
+  margin-right: 7px;
+}
+
+main {
+  position: absolute;
+  width: 681px;
+  height: 459px;
+  left: 0px;
+  top: 91px;
+  padding: 57px 27px;
+}
